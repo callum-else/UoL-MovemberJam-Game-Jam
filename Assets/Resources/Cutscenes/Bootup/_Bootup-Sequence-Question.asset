@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be644219000b32443b697d1ad3d322a6, type: 3}
+  m_Name: _Bootup-Sequence-Question
+  m_EditorClassIdentifier: 
+  animations:
+  - text: 
+    waitTime: 0.75
+  - text: Launching ApOS...
+    waitTime: 3
+  - text: ========================================
+    waitTime: 0.1
+  - text: Initialising Bootup Sequence...
+    waitTime: 1.2
+  - text: Grabbing System Files...
+    waitTime: 0.7
+  - text: Accessing Root Directories...
+    waitTime: 0.2
+  - text: Connecting to network...
+    waitTime: 1
+  - text: 'Logged in as Super User: Callum Else'
+    waitTime: 0.5
+  - text: ========================================
+    waitTime: 0.05
+  - text: Welcome to ApOS, the home of defence!
+    waitTime: 0.05
+  - text: Software Developed in 48 Hours.
+    waitTime: 0.05
+  - text: Launch defensive procedures?
+    waitTime: 0.05
+  - text: YES    NO
+    waitTime: 0.05
+  answers:
+  - YES
+  - NO
+  successMessage: '\nLaunching Missles...\nERROR: Missle target location - This terminal.\n\nComplete
+    Security questions to disable.'
+  failureMessage: '\nLaunching Missles...\nERROR: Missle target location - This terminal.\n\nComplete
+    Security questions to disable.'
+  endGame: 0

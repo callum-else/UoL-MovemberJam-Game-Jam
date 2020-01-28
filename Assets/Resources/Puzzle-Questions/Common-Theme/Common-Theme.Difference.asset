@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be644219000b32443b697d1ad3d322a6, type: 3}
+  m_Name: Common-Theme.Difference
+  m_EditorClassIdentifier: 
+  animations:
+  - text: '\nPlease idenfity the the item that is different from the others:'
+    waitTime: 0.5
+  - text: 1. Apple
+    waitTime: 0.1
+  - text: 2. Pear
+    waitTime: 0.1
+  - text: 3. Banana
+    waitTime: 0.1
+  answers:
+  - Banana
+  successMessage: Correct! Your intellect is astounding.
+  failureMessage: Incorrect! You disappoint me.

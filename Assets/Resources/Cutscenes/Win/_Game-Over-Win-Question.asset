@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be644219000b32443b697d1ad3d322a6, type: 3}
+  m_Name: _Game-Over-Win-Question
+  m_EditorClassIdentifier: 
+  animations:
+  - text: \n========================================
+    waitTime: 0.5
+  - text: All security questions answered. Missle Launch Cancelled.
+    waitTime: 2
+  - text: \nUnfortunately, due to system analysis, you have been found fully accountable
+      for the error that occured today.
+    waitTime: 2
+  - text: \nApOS(TM) is in no was responsible, and is formally letting you go.
+    waitTime: 2
+  - text: \nPlease gather your things and leave as soon as possible.
+    waitTime: 2
+  - text: \nShutting down ApOS...
+    waitTime: 2
+  answers:
+  - 
+  successMessage: 
+  failureMessage: 
